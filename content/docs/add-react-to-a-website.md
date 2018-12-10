@@ -156,7 +156,7 @@ You can play with JSX using [this online converter](http://babeljs.io/repl#?babi
 The quickest way to try JSX in your project is to add this `<script>` tag to your page:
 
 ```html
-<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js" crossorigin></script>
 ```
 
 Now you can use JSX in any `<script>` tag by adding `type="text/babel"` attribute to it. Here is [an example HTML file with JSX](https://raw.githubusercontent.com/reactjs/reactjs.org/master/static/html/single-file-example.html) that you can download and play with.
